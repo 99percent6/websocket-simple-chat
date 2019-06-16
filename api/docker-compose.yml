@@ -1,0 +1,18 @@
+version: '2'
+services:
+  es:
+    container_name: api_chat_elasticsearch
+    build: docker/elasticsearch/
+    volumes:
+      - ./docker/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+    ports:
+      - '9200:9200'
+    mem_limit: 1g
+    environment:
+      ES_JAVA_OPTS: "-Xmx512m -Xms512m"
+
+  redis:  
+    image: redis
+    container_name: api_chat_redis
+    ports:
+      - "6379:6379"

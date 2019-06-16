@@ -1,0 +1,19 @@
+{
+  "bodyLimit": "5000kb",
+  "db": {
+    "apiKey": "AIzaSyABS8ktswxCcXGVmjRNKOdw6EbMh2MCEbg",
+    "projectId": "todo-200d0",
+    "databaseURL": "https://todo-200d0.firebaseio.com",
+    "collectionName": {
+      "tasks": "todo-list",
+      "users": "users",
+      "feedback": "feedback",
+      "projects": "projects"
+    },
+    "secretKey": "1f421hjGdgdg83nfAgs143gd35"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": "6379"
+  }
+}
