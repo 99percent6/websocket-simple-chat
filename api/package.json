@@ -23,7 +23,7 @@
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.17.2",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-ws": "^4.0.0",
     "redis": "^2.8.0",
     "redis-jsonify": "^1.2.0",
